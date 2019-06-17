@@ -11,6 +11,7 @@ driver.switch_to.frame(driver.find_element_by_xpath("//iframe[@class='demo-frame
 #driver.find_element_by_xpath("//input[@class='hasDatepicker']").click()
 driver.find_element_by_xpath("//input[@class='hasDatepicker']").send_keys("05/05/2012")
 driver.find_element_by_xpath("//input[@class='hasDatepicker']").send_keys(Keys.ENTER)
+print("done")
 # month=driver.find_element_by_xpath("//select[@data-handler='selectMonth']")
 # #Return type is WebElement>>click,send_keys
 # s1=Select(month)#where to select
